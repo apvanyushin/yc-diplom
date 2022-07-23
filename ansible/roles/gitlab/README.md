@@ -24,12 +24,10 @@ Ubuntu
  | gitlab_root_pass |  "EgT2vcmVW!ql1" | Пароль для root |
  | gitlab_runner_token | "GR1348741mwxxg9ekV2nEgT2vcmVW" | Кастомный токен для регистрации собственного gitlab runner|
 
-Dependencies
+templates
 ------------
 
-- postfix
-- curl
-- tzdata
+- gitlab.rb.j2 - конфиг файл gitlab server
 
 Example Playbook
 ----------------
