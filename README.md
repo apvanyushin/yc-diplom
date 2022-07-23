@@ -43,7 +43,7 @@
 
 Примитивно изобразил HLD схему всего проекта
 
-![hld.png](screenshots/hld.png)
+![hld_2.png](screenshots/hld.png)
 
 ### 5. Установка WordPress
 
