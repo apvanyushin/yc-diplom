@@ -24,11 +24,11 @@ Role Variables
 | mysql_conf_dir | "/etc/mysql" | Папка конфигурации mysql|
 
 
-Dependencies
+templates
 ------------
 
-- mysql-server
-- python3-mysqldb
+- master.cnf
+- slave.cnf
 
 Example Playbook
 ----------------
