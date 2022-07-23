@@ -1,0 +1,3 @@
+/terraform/.terraform
+/terraform/key.json
+/terraform/id_rsa.pub

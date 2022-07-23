@@ -1,0 +1,8 @@
+---
+- name: Converge
+  hosts: all
+  gather_facts: false
+  tasks:
+    - name: "Include my.runner"
+      ansible.builtin.include_role:
+        name: "my.runner"

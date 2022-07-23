@@ -1,0 +1,30 @@
+---
+- hosts: nginx
+  roles:
+      - nginx
+
+- hosts: db01 db02
+  roles:
+      - mysql
+
+- hosts: app
+  roles:
+      - wordpress
+
+- hosts: gitlab
+  roles:
+      - gitlab
+
+- hosts: runner
+  roles:
+      - runner
+
+- hosts: all
+  roles:
+      - node_exporter
+
+- hosts: monitoring
+  roles:
+      - prometheus
+      - grafana
+      - alertmanager
