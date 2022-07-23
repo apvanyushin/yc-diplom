@@ -17,8 +17,7 @@ Ubuntu
 | gitlab_external_url | http://{{ gitlab_domain }}/ | Внешний адрес gitlab |
 | gitlab_edition |"gitlab-ce" | Версия gitlab (по умолчанию community edition) |
 | gitlab_config_template | "gitlab.rb.j2" | имя файла с кастомной конфигурацией gitlab |
-| gitlab_repository_installation_script_url | "https://packages.gitlab.com/install/repositories/gitlab/{{ gitlab_edition }}/script.deb.sh"
- | Ссылка на скрипт установки gitlab|
+| gitlab_repository_installation_script_url | "https://packages.gitlab.com/install/repositories/gitlab/{{ gitlab_edition }}/script.deb.sh"| Ссылка на скрипт установки gitlab|
  | gitlab_dependencies: |postfix, curl, tzdata| зависимости gitlab|
  | gitlab_time_zone | UTF | Таймзона |
  | gitlab_default_theme | 2 | Тема gitlab |
