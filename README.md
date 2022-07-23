@@ -47,7 +47,7 @@
 
 ### 5. Установка WordPress
 
-Разработана ansible role WordPress. Роль адаптирована для дипломного проекта, присутствуют таски для будущих заданий. Подробнее - [Wordpress](ansible/roles/Wordpress "Роль Wordpress")
+Разработана ansible role WordPress. Роль адаптирована для дипломного проекта, присутствуют таски для будущих заданий. Подробнее - [wordpress](ansible/roles/wordpress "Роль Wordpress")
 
 
 ### 6. Установка Gitlab CE и Gitlab Runner
@@ -80,10 +80,10 @@
 
 ### 7. Установка Prometheus, Alert Manager, Node Exporter и Grafana
 
-* [Роль Prometheus](ansible/roles/Prometheus "Роль Prometheus")
+* [Роль Prometheus](ansible/roles/prometheus "Роль Prometheus")
 * [Роль Alert Manager](ansible/roles/alertmanager "Роль Alert Manager")
 * [Роль Node Exporter](ansible/roles/node_exporter "Роль Node Exporter")
-* [Роль Grafana](ansible/roles/Grafana "Роль Grafana")
+* [Роль Grafana](ansible/roles/grafana "Роль Grafana")
 
 Для проверки мониторинга погасил одну VM. Prometheus все видит:
 ![prometheus.PNG](screenshots/prometheus.PNG)
