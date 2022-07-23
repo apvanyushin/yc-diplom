@@ -47,7 +47,7 @@
 
 ### 5. Установка WordPress
 
-Разработана ansible role WordPress. Роль адаптирована для дипломного проекта, присутствуют таски для будущих заданий. Подробнее - [Wordpress](ansible/roles/Wordpress "Роль Wordpress")
+Разработана ansible role WordPress. Роль адаптирована для дипломного проекта, присутствуют таски для будущих заданий. Подробнее - [wordpress](ansible/roles/wordpress "Роль Wordpress")
 
 
 ### 6. Установка Gitlab CE и Gitlab Runner
