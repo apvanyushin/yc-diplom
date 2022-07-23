@@ -11,7 +11,7 @@ Alertmanager
 Templates
 ------------
 
-- alertmanager.service для создания systemd service alertmanager
+- alertmanager.service - для создания systemd service alertmanager
 
 Example Playbook
 ----------------
